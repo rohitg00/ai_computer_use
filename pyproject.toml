@@ -1,0 +1,28 @@
+[project]
+name = "mac-ios-control"
+version = "0.1.0"
+description = "Control Mac and iOS devices through Claude"
+requires-python = ">=3.12"
+dependencies = [
+    "anthropic>=0.7.0",
+    "streamlit>=1.32.0",
+    "click>=8.1.7",
+    "python-dotenv>=1.0.0",
+    "pyautogui>=0.9.54",
+    "Appium-Python-Client>=3.1.1",
+    "pillow>=10.2.0",
+    "boto3>=1.34.0",
+    "google-auth>=2.27.0",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.ruff]
+line-length = 88
+target-version = "py312"
+
+[tool.pyright]
+pythonVersion = "3.12"
+typeCheckingMode = "strict" 

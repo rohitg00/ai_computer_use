@@ -1,0 +1,23 @@
+.
+├── README.md
+├── .gitignore
+├── .env.example
+├── pyproject.toml
+├── src/
+│   ├── __init__.py
+│   ├── main.py
+│   ├── config.py
+│   ├── api/
+│   │   ├── __init__.py
+│   │   └── anthropic.py
+│   ├── tools/
+│   │   ├── __init__.py
+│   │   ├── base.py
+│   │   ├── mac_tool.py
+│   │   ├── ios_tool.py
+│   │   └── collection.py
+│   └── ui/
+│       ├── __init__.py
+│       └── streamlit_app.py
+└── tests/
+    └── __init__.py 
